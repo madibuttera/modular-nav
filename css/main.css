@@ -24,17 +24,42 @@ body {
 }
 
 ul {
+  display: inline-block;
+}
+
+header {
+  background-color: #e2e2e2;
+}
+
+a {
   text-decoration: none;
+  color: #0074d9;
+  border-radius: 4px;
+}
+
+a:hover {
+  background-color: #0074d9;
+  color: #fff;
+}
+
+ul li {
+  text-decoration: none;
+  list-style: none;
+  display: inline-block;
 }
 
 @media only screen and (min-width: 25em) {
 
-
+  header {
+    text-align: center;
+  }
 
 }
 
 @media only screen and (min-width: 68em) {
 
-
+  header {
+    text-align: left;
+  }
 
 }
